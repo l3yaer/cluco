@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:cluco
-  (:use #:cl))
+  (:use #:cl #:cl-ppcre))
