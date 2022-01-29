@@ -8,13 +8,9 @@ This is an attempt to translate Clojure`s Hiccup lib to CL: https://github.com/w
 Basic usage:
 
 ```lisp
-
-CL-USER> (in-package #:cluco)
-
-CLUCO> (html #(:div #(:h1 "Hello, World")))
-
+(html #(:div #(:h1 "Hello, World")))
+=>
 "<div> <h1> Hello, World </h1> </div>"
-
 ```
 
 ## License
